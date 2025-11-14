@@ -1,0 +1,12 @@
+Global variable:
+- Declared outside main()
+- Accessible anywhere in the program
+- Example: globalVar = 10
+
+Local variable:
+- Declared inside main()
+- Only accessible within the function
+- Example: localVar = 5
+
+Scope difference:
+Global variables exist for the entire program, while local variables exist only inside the function where they are declared.
