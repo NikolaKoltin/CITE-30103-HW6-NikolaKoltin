@@ -1,0 +1,14 @@
+Original code:
+int 1value = 10;
+float avg-rate = 12.5;
+char Class = 'A';
+
+Corrected code:
+int value1 = 10;       
+float avg_rate = 12.5; 
+char classLetter = 'A';
+
+Rules violated:
+1. Variable names cannot start with a number.
+2. Variable names cannot contain symbols like '-'.
+3. Variable names cannot be reserved keywords.         
