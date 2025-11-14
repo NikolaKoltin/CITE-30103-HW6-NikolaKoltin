@@ -1,0 +1,19 @@
+1. Preprocessing
+   - The preprocessor handles things like #include and #define.
+   - Possible error: A header file might be missing.
+
+2. Compilation
+   - The compiler checks the C code and turns it into assembly.
+   - Possible error: A syntax error, like a missing semicolon.
+
+3. Assembly
+   - The assembler converts the assembly code into machine code (an object file).
+   - Possible error: Invalid assembly instruction.
+
+4. Linking
+   - The linker connects all object files and needed libraries into one executable.
+   - Possible error: “Undefined reference” if a function is not found.
+
+5. Loading
+   - The OS loads the program into memory and starts running it.
+   - Possible error: A missing library at load time or a run-time crash.
