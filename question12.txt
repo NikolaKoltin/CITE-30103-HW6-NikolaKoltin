@@ -1,0 +1,16 @@
+Original code:
+int a = 5, b = 3, res;
+res = a + b << 1;
+
+Problem:
+The '+' operator is evaluated before '<<', so res = (a + b) << 1 = 16. 
+The developer expected 11.
+
+Corrections:
+1. Using parentheses:
+   res = a + (b << 1);
+
+2. Using arithmetic instead of bitwise:
+   res = a + (b * 2);
+
+Both give res = 11.
