@@ -1,0 +1,5 @@
+If #include <stdio.h> is removed from a program that uses printf, the compiler will not know what printf is. 
+
+Stage that will fail: Compilation stage
+
+Expected error message: Something like "implicit declaration of function 'printf'" or "undefined reference to 'printf'".
